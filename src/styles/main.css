@@ -1,0 +1,24 @@
+.navbar {
+	background-color: #ffffff;
+}
+
+.jumbotron {
+	padding-left: 20px;
+	background-color: #9ba8d3;
+}
+
+#typewriter {
+	color: white;
+	padding-left: 2px;
+	font-size: 32px;
+}
+
+.custom-card {
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+.card-icon {
+	text-align: center;
+}
