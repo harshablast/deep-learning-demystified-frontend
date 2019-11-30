@@ -37,7 +37,7 @@
 				<div class="row">
 					
 					<div class="col-12 col-md-4 pt-4 pb-4 custom-card" style="">
-						<div class="icon mb-4 card-icon">
+						<div class="icon mb-5 card-icon">
 							<img src="./src/images/dl_explanation_icon.svg" width="128" height="128">
 						</div>
 						<h3>Simple.</h3>
@@ -45,7 +45,7 @@
 					</div>
 
 					<div class="col-12 col-md-4 pt-4 pb-4 custom-card">
-						<div class="icon mb-4 card-icon">
+						<div class="icon mb-5 card-icon">
 							<img src="./src/images/15-min-icon.svg" width="128" height="128">
 						</div>
 						<h3>Short.</h3>
@@ -53,7 +53,7 @@
 					</div>
 					
 					<div class="col-12 col-md-4 pt-4 pb-4 custom-card">
-						<div class="icon mb-4 card-icon">
+						<div class="icon mb-5 card-icon">
 							<img src="./src/images/eye-icon.svg" width="128" height="128">
 						</div>
 						<h3>Visual.</h3>
@@ -62,9 +62,91 @@
 
 				</div>
 			</div>
-			
+
 		</section>
 
+		<div class="article-select">
+			<ul class="nav nav-pills flex-column flex-sm-row nav-justified">
+			  <li class="nav-item">
+			    <a class="nav-link active" id="f-dl-tab" data-toggle="pill" href="#f-dl-content" role="tab" aria-controls="f-dl-content" aria-selected="true">Fundamentals of Deep Learning</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" id="nlp-dl-tab" data-toggle="pill" href="#nlp-dl-content" role="tab" aria-controls="nlp-dl-content" aria-selected="false">Deep Natural Language Processing</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link disabled" id="cv-dl-tab" data-toggle="pill" href="#cv-dl-content" role="tab" aria-controls="cv-dl-content" aria-selected="false">Deep Computer Vision <span class="badge badge-pill badge-primary">Coming Soon</span></a>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="tab-content" id="article-lists">
+			<div class="tab-pane fade show active" id="f-dl-content" role="tabpanel" aria-labelledby="f-dl-content">
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Introduction to Neural Networks - Part 1</h5>
+						<p class="card-text">Defining Neural Networks.</p>
+						<a href="https://medium.com/deep-learning-demystified/introduction-to-neural-networks-part-1-e13f132c6d7e" target="_blank" class="btn btn-primary">Read Now</a>
+					</div>
+				</div>
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Introduction to Neural Networks - Part 2</h5>
+						<p class="card-text">Training Neural Networks.</p>
+						<a href="https://medium.com/deep-learning-demystified/introduction-to-neural-networks-part-2-c261a99f4138" target="_blank" class="btn btn-primary">Read Now</a>
+					</div>
+				</div>
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Loss Functions Explained</h5>
+						<p class="card-text">Intuitive explanations of various Loss Functions in Deep Learning.</p>
+						<a href="https://medium.com/deep-learning-demystified/loss-functions-explained-3098e8ff2b27" target="_blank" class="btn btn-primary">Read Now</a>
+					</div>
+				</div>
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Understanding Optimizers</h5>
+						<p class="card-text">Exploring how the different popular optimizers in Deep Learning work</p>
+						<a href="https://medium.com/deep-learning-demystified/https-medium-com-deep-learning-demystified-understanding-optimizers-313b787a69fe" target="_blank" class="btn btn-primary">Read Now</a>
+					</div>
+				</div>
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Generalization in Neural Networks</h5>
+						<p class="card-text">How can neural networks learn more effectively from the given data.</p>
+						<a href="https://medium.com/deep-learning-demystified/generalization-in-neural-networks-7765ee42ac23" target="_blank" class="btn btn-primary">Read Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="nlp-dl-content" role="tabpanel" aria-labelledby="nlp-dl-content">
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Deep NLP: Word Vectors with Word2Vec</h5>
+						<p class="card-text">How to Preprocess text effectively with Deep Learning.</p>
+						<a href="https://medium.com/deep-learning-demystified/deep-nlp-word-vectors-with-word2vec-d62cb29b40b3" target="_blank" class="btn btn-primary">Read Now</a>
+					</div>
+				</div>
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Deep NLP: Sequential Models with RNNs and LSTMs <span class="badge badge-pill badge-primary">Coming Soon</span></h5>
+						<p class="card-text">Building Sequential models for various NLP tasks using Deep Learning.</p>
+						<a href="#" target="_blank" class="btn btn-primary disabled">Read Now</a>
+					</div>
+				</div>
+				<div class="card article-card">
+					<div class="card-body">
+						<h5 class="text-primary card-title">Deep NLP: Transformers <span class="badge badge-pill badge-primary">Coming Soon</span></h5>
+						<p class="card-text">Exploring the state of the art Deep Learning technique for all NLP tasks.</p>
+						<a href="#" target="_blank" class="btn btn-primary disabled">Read Now</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="tab-pane fade" id="cv-dl-content" role="tabpanel" aria-labelledby="cv-dl-content">
+				
+			</div>
+		</div>
+
+	
 		<script type="text/javascript" src="./src/scripts/typewriter.js"></script>
 
 	</body>

@@ -22,3 +22,15 @@
 .card-icon {
 	text-align: center;
 }
+
+.article-select {
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+}
+
+.article-card {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+}
