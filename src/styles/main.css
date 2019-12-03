@@ -5,7 +5,7 @@
 .jumbotron {
 	padding: 10%;
 	background-color: #ffffff;
-	height: 100vh;
+	height: 90vh;
 	background-image: url("./src/iamges/header-bg-1.png")
 }
 
@@ -19,29 +19,39 @@
 	font-size: 32px;
 }
 
+
 .custom-card-container {
 	padding: 50px;
 	/*background-color: #8ba2e8;*/
 	/*background-color: #394fa5;*/
-	background-image: linear-gradient(#394fa5, #2fa491)
+	/*background-image: linear-gradient(#394fa5, #2fa491)*/
 	/*background-image: linear-gradient(#394fa5, #423873)*/
 }
 
 .custom-card {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 7%;
+	padding-right: 7%;
 	text-align: center;
 }
 
 .custom-card h3 {
-	font-weight: 700;
-	color: white;
+	color: #310d75;
 	margin-bottom: 20px;
 }
 
 .custom-card p {
-	color: white;
+	color: #6878a0;
 	font-weight: 500;
+}
+
+.inner-card {
+	padding: 30px 20px 10px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.inner-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
@@ -59,4 +69,29 @@
 	width: 80%;
 	margin: auto;
 	margin-bottom: 20px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Create the hidden pseudo-element */
+/* include the shadow for the end state */
+.box::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
 }
