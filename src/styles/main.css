@@ -5,11 +5,15 @@
 .jumbotron {
 	padding: 10%;
 	background-color: #ffffff;
-	height: 90vh;
+	height: 80vh;
 }
 
 .jumbotron h1 {
 	color: #310d75;
+}
+
+.jumbotron p {
+  font-weight: 500; 
 }
 
 #typewriter {
@@ -19,6 +23,125 @@
 	font-size: 32px;
 }
 
+.about-section {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.about-section h2 {
+  font-weight: 200;
+  font-size: 42px;
+  color: #4870d9;
+  padding-bottom: 10px;
+}
+
+.about-section b {
+  color: #310d75;
+}
+
+.about-section p {
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: justify
+}
+
+.about-desc {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.card-container {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.card-container h3 {
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.about-card {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-right: 3rem; 
+  padding-left: 3rem;
+}
+
+.about-card p {
+  font-weight: 600;
+}
+
+.article-section {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.article-section .row {
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: #4870d9;
+}
+
+.article-nav {
+  padding-top: 20px;
+  background-color: #4870d9; 
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.article-nav .nav-link {
+  color: white;
+}
+
+.article-list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.card {
+  color: #4870d9; 
+  border-radius: 30px;
+  border-color: #4870d9;
+  border-width: 1px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.card a {
+  border-radius: 10px;
+}
+
+.rounded-border {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .rounded-border {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0; 
+    border-bottom-left-radius: 0;
+  }
+}
+
+.nav-pills .nav-link {
+  text-align: center;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #4870d9;
+  background-color: #fff;
+}
 
 .custom-card-container {
 	padding: 50px;
@@ -60,6 +183,8 @@
 .card-icon {
 	text-align: center;
 }
+
+
 
 .article-select {
 	padding: 2px;

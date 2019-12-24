@@ -5,6 +5,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+		<script src="https://kit.fontawesome.com/360e1c4a59.js" crossorigin="anonymous"></script>
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 		<link rel="stylesheet" type="text/css" href="./src/styles/main.css">
@@ -35,7 +37,7 @@
 					<h1 class="display-4" style="font-weight: 400;">Deep Learning</h1>
 					<span id="typewriter"></span>
 					<hr class="my-4">
-					<p>Start your Deep Learning journey with high quality content focusing on simple and intuitive explanations of all the core concepts.</p>
+					<p class="text-muted">Kickstart your deep learning journey today.</p>
 					<a class="btn btn-primary btn-lg" href="#article-select-section" role="button">Let's Start</a>
 				</div>
 				<div class="col-12 col-md-6 d-none d-lg-block">
@@ -46,7 +48,24 @@
 		
 		</div>
 
-		<section class="pt-5 pb-5">
+		<section class="about-section d-flex flex-column">
+			<div class="about-desc">
+				<h2>Your <b>Deep Learning</b> Journey <br>Starts Here</h2>
+				<p class="text-muted">Get started with the world of deep learning with our in depth articles explaining all the core concepts made for people of all levels. Our guided set of articles guarantees a comprehensive understanding of deep learning fundamentals.</p>
+			</div>
+			<div class="about-desc">
+				<div style="float: right;">
+					<h2>Understand not just the <b>how</b>, <br>but also the <b>why.</b></h2>
+					<p class="text-muted">Most people focus on how deep learning works, but it's also important to understand why. Our articles explain both the working principles of deep learning as well as the intuition behind how exactly they work.</p>
+				</div>
+			</div>
+			<div class="about-desc">
+				<h2>Illustrative <b>Visuals</b> and <br>Engaging <b>Examples</b></h2>
+				<p class="text-muted">With articles packed with illustrations and examples for each concept, never fail to understand how exactly a certain deep learning mechanism works under the hood because you can visualize it's inner parts.</p>
+			</div>
+		</section>
+
+<!-- 		<section class="pt-5 pb-5">
 
 			<div class="container-fluid custom-card-container">
 				<div class="row">
@@ -85,9 +104,135 @@
 				</div>
 			</div>
 
+		</section> -->
+
+		<section class="mb-5 mt-5">
+			<div class="container-fluid card-container">
+				<div class="row" style="text-align: center;">
+					<div class="col-12 col-md-4 about-card">
+						<img src="./src/images/simple-icon.svg" height="128" width="128">
+						<h3>Simple</h3>
+						<p class="text-muted">Complex Deep Learning concepts explained in a straightforward way.</p>
+					</div>
+					<div class="col-12 col-md-4 about-card">
+						<img src="./src/images/intuitive-icon.svg" height="128" width="128">
+						<h3>Intuitive</h3>
+						<p class="text-muted">Concepts explained in a thought provoking fashion to strengthen understanding.</p>
+					</div>
+					<div class="col-12 col-md-4 about-card">
+						<img src="./src/images/visual-icon.svg" height="128" width="128">
+						<h3>Visual</h3>
+						<p class="text-muted">Visuals to simplify understanding of core concepts in Deep Learning.</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
- 		<section id="article-select-section">
+		<section class="mb-5 mt-5 article-section">
+			<div class="row">
+				<div class="col-12 col-md-3 article-nav rounded-border" style="text-align: left;">
+					<!-- <h4 style="padding-left: 16px;">Tracks</h4> -->
+					<ul class="nav nav-pills flex-column" id="article-nav-section" role="tablist">
+					  <li class="nav-item">
+					    <a class="nav-link active" id="fdl-tab" data-toggle="tab" href="#fdl-content" role="tab" aria-controls="fdl-content" aria-selected="true">Fundamnetals of Deep Learning</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" id="nlp-tab" data-toggle="tab" href="#nlp-content" role="tab" aria-controls="nlp-content" aria-selected="false">Deep Natural Language Processing</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link disabled" id="cv-tab" data-toggle="tab" href="#cv-content" role="tab" aria-controls="cv-content" aria-selected="false">Deep Computer Vision <span class="badge badge-pill badge-success">Coming Soon</span></a>
+					  </li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-9 article-list">
+					<div class="tab-content" id="article-list-section">
+						<div class="tab-pane fade show active" id="fdl-content" role="tabpanel" aria-labelledby="fdl-content">
+							<div class="d-flex flex-column">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Introduction to Neural Networks - Part 1</h5>
+										<h6 class="card-subtitle text-muted">Defining Neural Networks.</h6>
+										<br>
+										<a href="https://medium.com/deep-learning-demystified/introduction-to-neural-networks-part-1-e13f132c6d7e" target="_blank" class="card-link btn btn-primary">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Introduction to Neural Networks - Part 2</h5>
+										<h6 class="card-subtitle text-muted">Training Neural Networks.</h6>
+										<br>
+										<a href="https://medium.com/deep-learning-demystified/introduction-to-neural-networks-part-2-c261a99f4138" target="_blank" class="card-link btn btn-primary">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Loss Functions Explained</h5>
+										<h6 class="card-subtitle text-muted">Intuitive explanations of various Loss Functions in Deep Learning.</h6>
+										<br>
+										<a href="https://medium.com/deep-learning-demystified/loss-functions-explained-3098e8ff2b27" target="_blank" class="card-link btn btn-primary">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Understanding Optimizers</h5>
+										<h6 class="card-subtitle text-muted">Exploring how the different popular optimizers in Deep Learning work</h6>
+										<br>
+										<a href="https://medium.com/deep-learning-demystified/https-medium-com-deep-learning-demystified-understanding-optimizers-313b787a69fe" target="_blank" class="card-link btn btn-primary">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Generalization in Neural Networks</h5>
+										<h6 class="card-subtitle text-muted">How can neural networks learn more effectively from the given data.</h6>
+										<br>
+										<a href="https://medium.com/deep-learning-demystified/generalization-in-neural-networks-7765ee42ac23" target="_blank" class="card-link btn btn-primary">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+							</div>
+						</div>
+  						<div class="tab-pane fade" id="nlp-content" role="tabpanel" aria-labelledby="nlp-content">
+  							<div class="d-flex flex-column">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Deep NLP: Word Vectors with Word2Vec</h5>
+										<h6 class="card-subtitle text-muted">How to Preprocess text effectively with Deep Learning.</h6>
+										<br>
+										<a href="https://medium.com/deep-learning-demystified/deep-nlp-word-vectors-with-word2vec-d62cb29b40b3" target="_blank" class="card-link btn btn-primary" target="_blank" class="card-link btn btn-outline-primary">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Deep NLP: Sequential Models with RNNs and LSTMs <span class="badge badge-pill badge-success">Coming Soon</span></h5>
+										<h6 class="card-subtitle text-muted">Building Sequential models for various NLP tasks using Deep Learning.</h6>
+										<br>
+										<a href="#" target="_blank" class="card-link btn btn-primary disabled">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Deep NLP: Transformers <span class="badge badge-pill badge-success">Coming Soon</span></h5>
+										<h6 class="card-subtitle text-muted">Exploring the state of the art Deep Learning technique for all NLP tasks.</h6>
+										<br>
+										<a href="#" target="_blank" class="card-link btn btn-primary disabled">Read on Medium <i class="fab fa-medium fa-lg"></i></a>
+		<!--     							<a href="#" class="card-link btn btn-primary">Read on Site</a> -->
+									</div>
+								</div>
+							</div>
+  						</div>
+  						<div class="tab-pane fade" id="cv-content" role="tabpanel" aria-labelledby="cv-content">...</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+ 		<!-- <section id="article-select-section">
  			<h1 class="mb-3 pb-3" style="text-align: center; color: #310d75;">Articles</h1>
  			<div class="article-select">
 				<ul class="nav nav-pills-lb flex-column flex-sm-row nav-justified">
@@ -169,7 +314,7 @@
 					
 				</div>
 			</div>
- 		</section>
+ 		</section> -->
 
 <!--  		<footer class="social-footer">
 			 <div class="social-footer-left">

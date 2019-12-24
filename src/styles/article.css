@@ -1,0 +1,50 @@
+body {
+	background-color: #4870d9;
+}
+
+#article-header h1,h2 {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#article-segment {
+	background-color: white;
+	max-width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 30px !important;
+}
+
+#segment-text {
+	font-size: 1.2rem;
+	padding-top: 30px;
+	max-width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#segment-text img {
+	text-align: center;
+}
+
+#segment-navigation {
+	float: bottom;
+	max-width: 90%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#article-navigation {
+	max-width: 90%;
+	margin: auto;
+}
+
+#article-navigation a {
+	color: #4870d9;
+}
+
+.btn-rounded {
+	border-radius: 30px !important;
+	width: 10%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="./../src/styles/article.css">
+
+</head>
+<body>
+
+	<div id="article-header" class="mt-3">
+		<h1 class="font-weight-lighter">Fundamentals of Deep Learning</h1>
+		<h1 class="font-weight-normal">Introduction to Neural Networks - Part 1</h1>
+	</div>
+	
+	<div id="article-segment" class="border rounded-lg">
+		<h3 id="segment-title"></h3>
+		<div id="segment-text">
+			<p>Let’s look at a couple of popular activation functions:</p>
+			<img class="mx-auto d-block" src="https://cdn-images-1.medium.com/max/800/1*fKQ8aWPSDSDoK7MUBgR1XA.png" width="70%" height="auto">
+			<p><b>ReLU:</b> ReLU stands for Rectified Linear Unit. It essentially becomes an identity function (y = x) when x ≥ 0 and becomes 0 when x < 0. This is a very widely used activation function because its a nonlinear function and it is very simple.</p>
+			<p><b>Sigmoid:</b> Sigmoid is essentially a function bounded between 0 and 1. It will become 0 for values which are very negative and 1 for values which are very positive. Hence this function squishes values which are very high or very low to values between 0 and 1. This is useful in neural networks sometimes to ensure values aren’t extremely high or low. This function is usually used at the last layer when we need values which are binary (0 or 1).</p>
+			<p>This concludes this part of the tutorial. The next part will explain in detail how exactly we can use our data to train our neural network. Thank you for reading!</p>
+		</div>
+		<div id="segment-navigation" class="d-flex justify-content-between">
+			<a href="" class="btn btn-primary btn-rounded">Previous</a>
+			<a href="" class="btn btn-primary btn-rounded">Next</a>
+		</div>
+	</div>
+	<div id="article-navigation" class="d-flex justify-content-between mt-3 mb-3">
+		<a href="" class="btn btn-light btn-rounded">Previous<br/> Article</a>
+		<a href="" class="btn btn-light btn-rounded">Next<br/> Article</a>
+	</div>
+
+</body>
+</html>
+
+			<!-- <img class="mx-auto d-block" src="https://miro.medium.com/max/1576/1*tIwGoSbyUZEHNp93pRqROw.png" width="70%" height="auto"> -->
